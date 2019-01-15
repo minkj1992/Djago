@@ -11,6 +11,7 @@
 - 카리스마: politician
 - 절제력: -(criminal)
 
+![](img/1.png)
 
  5가지 domain에 맞추어 Google에서 type=”face”, keyword=”domain”으로 검색을 한다.
 
@@ -29,6 +30,7 @@ c.f) 만약 남,여를 구분할 경우에는 남자와 여자 군집 각 600개
 ### 2.Facial landmark detection
 openCV 라이브러리에 있는 메소드들을 통하여 이미지로부터 68가지의 landmark points(눈,코,입,턱선,눈썹,인중,콧구멍등)를 추출한다. 
 
+![](img/2.png)
 
 ## Step 2 : Coordinate Transformation
 (600,600) X,Y좌표값을 조정해준다.
