@@ -114,6 +114,8 @@ c.f)CNN을 통하여 모델링을 할 경우에는 다른 방식으로 data prep
 8. [first dump prject3](https://github.com/minkj1992/Djago/blob/master/Basic-2-3-Word_counter3.md)
 9. [free Html5 with Django](https://github.com/minkj1992/Djago/blob/master/Django_Html5_templates.md)
 
+![](img/3.png)
+
 ## 공부할 사항
 1. 이미지 업로드 page 구현
 2. view에서 업로드한 이미지 데이터베이스 저장법.
