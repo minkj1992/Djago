@@ -262,7 +262,7 @@ class MovieDelete(DeleteView):
 > 모든 crud를 완성했고 이제 보여주는 html만 생성해주면 된다.
 
 - `movie/templates`: movie 폴더 바로 밑에 `templates`를 생성해준다.
-- 이후 5가지 `html`파일을 만들어준다.
+- 이후 4가지 `html`파일을 만들어준다.
     - `home.html`: 시작 페이지,영화 목록 보여줄 페이지
     - `movie_form.html`: 영화 새로 생성페이지, 영화 수정 페이지 (`C`,`U`)
     - `movie_detail.html`: 영화 상세 페이지(`R`)
@@ -311,6 +311,18 @@ movie/templates/home.html
 <a href="{% url 'create' %}">new</a>
 <a href="{% url 'parse' %}">크롤링시작</a>
 ```
+
+movie/templates/movie_form.html
+```html
+<h1>create/update</h1>
+
+
+<form method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="submit"/>
+</form>
+```
+
 movie/templates/movie_detail.html
 ```html
 <h1>detail</h1>
