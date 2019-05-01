@@ -1,3 +1,6 @@
+# MTV
+https://docs.google.com/presentation/d/1opOywELYeE2sM-RtTVHqdRLJr94obg9NP3Brs_mKvYQ/edit?usp=sharing
+
 # CRUD란 무엇인가.
 web에서 crud 개념
     - url을 통해서 데이터를 통제하거나 관리한다.
