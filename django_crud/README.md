@@ -7,8 +7,8 @@ web에서 crud 개념
 # 디렉토리 이동
 # 가상환경 키기
 `souce mvenv/Scripts/activate`
-# django 다운로드 받기
-`pip install django`
+# django, bs4,request(크롤링) 다운로드 받기
+- `pip install bs4 request django`
 # startproject
 `django-admin startproject crud`
 
@@ -33,7 +33,7 @@ INSTALLED_APPS = [
 
 
 # crawler 생성
-    - `pip install bs4 request django`
+    
 
 
 - movie 폴더 바로 밑에 parser.py를 생성해준다.
