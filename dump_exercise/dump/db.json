@@ -1,0 +1,26 @@
+[
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "\uc0c8\ub85c\uc6b4 \uc81c\ubaa9",
+        "created_at": "2019-10-27T10:43:29Z",
+        "category": "\uc2dc\ud5d8",
+        "context": "\uc2dc\ud5d8\uc6a9 \uae00 1",
+        "created_by": 1,
+        "file": "\uc99d\uba85\uc0ac\uc9c4.jpg"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "\uc81c\ubaa92",
+        "created_at": "2019-10-27T10:44:18Z",
+        "category": "\uc2dc\ud5d8",
+        "context": "\uc2dc\ud5d8 2",
+        "created_by": 1,
+        "file": "\uc2a4\ud06c\ub9b0\uc0f7_2019-08-26_18-34-10.png"
+    }
+}
+]
